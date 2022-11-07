@@ -17,6 +17,26 @@
         }
     }
 
+    &--no-padding-until-medium{
+        padding-left: 0;
+        padding-right: 0;
+
+        @mixin atMedium {
+            padding-right: 18px;
+            padding-left: 18px; 
+        }
+    }
+
+    &--no-padding-until-large{
+        padding-left: 0;
+        padding-right: 0;
+
+        @mixin atLarge {
+            padding-right: 18px;
+            padding-left: 18px; 
+        }
+    }
+
     .wrapper {
         padding-right: 0px;
         padding-left: 0px;
